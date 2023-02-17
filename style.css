@@ -16,14 +16,15 @@ body{
 }
 
 .container{
+  width: 90%;
   max-width: 1200px;
   margin: 0 auto;
 }
 
 .titolo{
   color: #e53170;
-  margin-top: 2rem;
-  font-size: 2.5rem;
+  margin-top: 50px;
+  font-size: 40px;
   text-align: center;
   font-family: 'Fredoka One', cursive;
 }
@@ -71,4 +72,6 @@ a{
 .lorem{
   margin-top: 30px;
   font-size: larger;
+  margin-left: 21px;
+  margin-right: 21px;
 }
