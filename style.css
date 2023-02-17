@@ -4,8 +4,71 @@
   box-sizing: border-box;
 }
 
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+body{
+  font-family: 'Fredoka', sans-serif;
+  font-size: 15px;
+}
+
 .container{
-  background-color: aqua;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.titolo{
+  color: #e53170;
+  margin-top: 2rem;
+  font-size: 2.5rem;
+  text-align: center;
+  font-family: 'Fredoka One', cursive;
+}
+
+.float-left{
+  float: left;
+}
+
+div.col{
+  width: calc( (100% / 3) - 3rem);
+  margin: 3rem 1.5rem 0rem;
+  background-color: #0f0e17;
+  color: white;
+}
+
+div.col>img{
+  height: 6rem;
+  margin-right: .75rem;
+}
+
+div.card-content{
+  padding:.75rem;
+}
+
+div.card-content h2{
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin-bottom: .25rem;
+}
+
+div.card-content p{
+  margin-bottom: .25rem;
+}
+
+h2{
+  font-weight: bold;
+  font-family: 'Fredoka One', cursive;
+}
+
+a{
+  color: #00c6f3;
+  text-decoration: none;
+}
+
+.lorem{
+  margin-top: 30px;
+  font-size: larger;
 }
